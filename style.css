@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo{
+    width: 100px;
+    height: 160px;
+}
+
+.git-link{
+    /*width: 25px;*/
+    height: 20px;
+}
+
+.linkedin-link{
+    /*width: 20px;*/
+    height: 20px;
+}
+
+.email-link{
+    /*width: 20px;*/
+    height: 20px;
+}
+
+.table, td{
+    width: 35%;
+    border-collapse: collapse;
+    border-style: hidden;
+    border: 1px solid black;
+}
+
+th{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+a, label{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.form-input{
+    margin-bottom: 10px;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+}
